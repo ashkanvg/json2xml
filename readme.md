@@ -15,6 +15,7 @@ You can install them via your package manager or include the header-only version
 0. Install Required Libraries 
 1. Compile:
    ```
+   g++ -std=c++17 main.cpp -o json2xml \ 
     -I/opt/homebrew/opt/nlohmann-json/include \
     -I/opt/homebrew/opt/pugixml/include \
     -L/opt/homebrew/opt/pugixml/lib -lpugixml
