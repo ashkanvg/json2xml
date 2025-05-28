@@ -24,3 +24,8 @@ You can install them via your package manager or include the header-only version
    ```
     ./json2xml [input name (.json)] [output name (.xml)]
    ```
+   
+
+## Notes:
+- I use <item> for each array element, you can modify it in the code if you want. 
+- Is it possible even use faster json parser such as cuJSON or SIMDJSON to get values of json and append it in xml for larger files.
