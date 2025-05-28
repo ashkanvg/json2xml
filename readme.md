@@ -21,5 +21,5 @@ You can install them via your package manager or include the header-only version
    ```
 2. Run:
    ```
-    ./json2xml
+    ./json2xml [input name (.json)] [output name (.xml)]
    ```
